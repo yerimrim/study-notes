@@ -75,3 +75,6 @@ $p(\lambda) = det(\lambda I_n - A) = \lambda^n + a_{n-1}\lambda^{n-1}+\cdots +a_
 
 
 - $(AB)^*=C^*A^*$
+
+$\mathbb{R}$
+
