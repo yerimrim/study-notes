@@ -1,9 +1,9 @@
 ### Chapter05 (Loss)
 
 - `Loss function`: 실제값과 예측값 사이의 오차를 계산하는 함수
-- **Maximum Likelihood**: argmax$( \sum P[y_i|f(x_i,\phi)])$
-- **Maximum Log Likelihood**: argmax$( \sum log(P[y_i|f(x_i,\phi)]))$
-- **Mimimum Negative Log Likelihood**: argmin$(- \sum log(P[y_i|f(x_i,\phi)]))$
+- **Maximum Likelihood**: argmax$$( \sum P[y_i|f(x_i,\phi)])$$
+- **Maximum Log Likelihood**: argmax$$( \sum log(P[y_i|f(x_i,\phi)]))$$
+- **Mimimum Negative Log Likelihood**: argmin$$(- \sum log(P[y_i|f(x_i,\phi)]))$$
 - `Heteroscedastic Regression`(이종분산회귀): 입력값에 따라 분산이 달라짐을 모델링 (Regression에서 쓰임)
 - `Softmax 함수`: k개의 실수 출력을 확률값으로 변환해주는 함수 (Multicalss Classification에서 쓰임)
 - `Cross-Entropy`: 두 확률분포의 차이를 측정하는 지표 (Classification에서 쓰임)
