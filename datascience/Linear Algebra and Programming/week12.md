@@ -60,6 +60,7 @@ $p(\lambda) = det(\lambda I_n - A) = \lambda^n + a_{n-1}\lambda^{n-1}+\cdots +a_
 4. $||Ux||=||x||$
 5. 두 직교행렬의 곱은 직교행렬이다.
 
+---
 
 ### 복소벡터공간
 
