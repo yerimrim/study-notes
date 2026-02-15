@@ -1,4 +1,3 @@
-<aside>
 
 ### 고유공간
 
@@ -19,9 +18,7 @@
 
 - 고유벡터: 정방행렬 A에 의한 변환 전과 변환 후가 ‘**평행**’한 벡터
 - 서로 다른 고유값에 대해서는 고유벡터는 선형독립이다.
-</aside>
 
-<aside>
 
 ### 케일리-해밀턴 정리
 
@@ -33,9 +30,6 @@ $p(\lambda) = det(\lambda I_n - A) = \lambda^n + a_{n-1}\lambda^{n-1}+\cdots +a_
 
 ⇒ $A^{-1} = {1\over a_n} (A^{n-1} - a_{n-1}A^{n-2}-\cdots - a_1)$
 
-</aside>
-
-<aside>
 
 ### 평균벡터와 공분산 행렬
 
@@ -49,9 +43,7 @@ $p(\lambda) = det(\lambda I_n - A) = \lambda^n + a_{n-1}\lambda^{n-1}+\cdots +a_
     - $x_i$: 문제에서 주어진 벡터들
     - $m$: 평균 벡터
     - $u_i$: 공분산 행렬 $C$의 고유벡터
-</aside>
 
-<aside>
 
 ### 직교행렬
 
@@ -64,9 +56,6 @@ $p(\lambda) = det(\lambda I_n - A) = \lambda^n + a_{n-1}\lambda^{n-1}+\cdots +a_
 3. $Ux\cdot Uy = x\cdot y$
 4. $||Ux||=||x||$
 5. 두 직교행렬의 곱은 직교행렬이다.
-</aside>
-
-<aside>
 
 ### 복소벡터공간
 
@@ -77,4 +66,4 @@ $p(\lambda) = det(\lambda I_n - A) = \lambda^n + a_{n-1}\lambda^{n-1}+\cdots +a_
 - $(\alpha A + \beta B)^{*} = \bar{\alpha} A^{*} + \bar{\beta} B^{*}$
 - $(AB)^{*} = B^{*} A^{*}$
   
-</aside>
+
