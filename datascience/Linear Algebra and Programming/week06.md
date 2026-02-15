@@ -14,7 +14,7 @@ $$
 det(kA)=k^nA \\ (A_{n\times n})
 $$
 
-*** 삼각행렬(상삼각행렬, 하삼각행렬, 대각행렬)의 행렬식: 주대각 성분의 곱**
+* 삼각행렬(상삼각행렬, 하삼각행렬, 대각행렬)의 행렬식: 주대각 성분의 곱 *
 
 </aside>
 
@@ -60,7 +60,7 @@ $$
 
 꼭짓점의 좌표가 (0,0), (a,c), (b,d), (a+b, c+d)인 평행사변형의 넓이
 
-$|det\begin{pmatrix} a&b \\ c&d\end{pmatrix}|$ $\space = |ad-bc|$
+$$|det\begin{pmatrix} a&b \\ c&d\end{pmatrix}|$$ $$\space = |ad-bc|$$
 
 </aside>
 
