@@ -14,9 +14,7 @@
 
 : $x^TAx$
 
-$a_1x^2+a_2y^2+a_3z^2+a_4xy+a_5yz+a_6zx$
-
-$$= \begin{pmatrix} x&y&z\end{pmatrix}$$
+$a_1x^2+a_2y^2+a_3z^2+a_4xy+a_5yz+a_6zx = \begin{pmatrix} x&y&z\end{pmatrix}$$
 $$\begin{pmatrix} a_1 & a_4/2 &a_6/2\\a_4/2&a_2&a_5/2\\a_6/2&a_5/2&a3 \end{pmatrix}$$
 $$\begin{pmatrix} x\\y\\z\end{pmatrix}$$
 
