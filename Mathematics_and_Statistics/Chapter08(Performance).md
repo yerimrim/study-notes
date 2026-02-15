@@ -1,4 +1,4 @@
-### Chapter8 (Performance)
+### Chapter08 (Performance)
 
 - Training Error (⬆️ ⇒ 복잡도 증가, Epoch 증가, Learning rate 적절히 조절해야 함)
 - Validation Error (⬆️ ⇒ 모델 일반화)
