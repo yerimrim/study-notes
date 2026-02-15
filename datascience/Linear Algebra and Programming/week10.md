@@ -16,7 +16,7 @@ $||v|| = \sqrt{<v,v>}$
 ### NORM 공간
 
 1. $^\forall v \in V,\space  ||v|| \geq 0,\space  moreover \space ||v||=0\Leftrightarrow v= 0$
-2. $^\forall v \in V ^\forall \alpha \in \R,\space  ||\alpha v|| = ||\alpha ||||v||$
+2. $^\forall v \in V ^\forall \alpha \in\mathbb{R},\space  ||\alpha v|| = ||\alpha ||||v||$
 3. $^\forall u, v \in V, ||u+v|| \le ||u|| +||v||$
 </aside>
 
@@ -26,7 +26,7 @@ $||v|| = \sqrt{<v,v>}$
 
 $u \times v = \begin{vmatrix} i & j& k \\ u_1&u_2&u_3\\ v_1&v_2&v_3 \end{vmatrix}$
 
-### $\R^3$ 공간 벡터의 표준기저에 대한 외적의 성질
+### $\mathbb{R}^3$ 공간 벡터의 표준기저에 대한 외적의 성질
 
 1. $i\times i = j\times j = k\times k = 0$
 2. $i\times j = k,\space  j\times k = i ,\space k\times i = j$
