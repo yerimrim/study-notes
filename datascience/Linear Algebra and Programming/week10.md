@@ -129,13 +129,13 @@ $\bigtriangledown^2f = {\partial^2f \over \partial x_1^2} + {\partial ^2 f\over 
 
 ### 반사변환
 
-- x축 기준으로 반사: $\begin{pmatrix} 1 & 0\\0&-1\end{pmatrix}$
-- y축 기준으로 반사:  $\begin{pmatrix} -1 & 0\\0&1\end{pmatrix}$
+- x축 기준으로 반사: $$\begin{pmatrix} 1 & 0\\0&-1\end{pmatrix}$$
+- y축 기준으로 반사:  $$\begin{pmatrix} -1 & 0\\0&1\end{pmatrix}$$
 
 ### 층밀림변환
 
-- x축 방향으로 y의 k배만큼 층밀림: $\begin{pmatrix} 1 & k\\0&1\end{pmatrix}$
-- y축 방향으로 x의 k배만큼 층밀림: $\begin{pmatrix} 1 & 0\\k&1\end{pmatrix}$
+- x축 방향으로 y의 k배만큼 층밀림: $$\begin{pmatrix} 1 & k\\0&1\end{pmatrix}$$
+- y축 방향으로 x의 k배만큼 층밀림: $$\begin{pmatrix} 1 & 0\\k&1\end{pmatrix}$$
 </aside>
 
 <aside>
