@@ -1,4 +1,4 @@
-### Chapter3 (Shallow)
+### Chapter03 (Shallow)
 
 - Regression: Fully connected, one output and real value
 - `Shallow Neural Networks`: 비선형, 복잡한 데이터들을 잘 묘사할만큼 유연함, hidden layer 1개
