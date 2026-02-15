@@ -1,4 +1,4 @@
-### Chapter6 (Fitting)
+### Chapter06 (Fitting)
 
 - **Non-Covex**: local minimum과 saddle point가 많은 상황 ⇒ Gradient Descent로 global minimum을 찾을 수 없음
 - Hessian Maxtrix: 2차 편미분 정사각행렬 ⇒ $n$개의 파라미터를 가진 모델 $H=n^2$
