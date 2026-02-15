@@ -31,7 +31,7 @@ $8)\space 1u=u$
 
 **다음 10가지 성질을 모두 만족하는 집합 $V$는 벡터공간이다.**
 
-$u,v \in V , \alpha \in \R$
+$u,v \in V , \alpha \in \mathbb{R}$
 
 $1) \space u+v \in V$
 
