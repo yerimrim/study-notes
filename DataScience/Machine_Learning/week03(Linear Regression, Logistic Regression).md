@@ -5,6 +5,7 @@
 - 모형:
 $y=\beta _0+\beta_1x_1+\beta_2x_2+\cdots$
 - $\hat y = X\hat\beta$
+
 $$\begin{bmatrix} \hat y_1 \\ \hat y_2 \\ \vdots\\ \hat y_n \end{bmatrix} = \begin{bmatrix} x_{11} & x_{12} & \cdots & x_{1m} & 1 \\ x_{21} & x_{22} & \cdots & x_{2m} & 1 \\ \vdots & \vdots & \vdots & \vdots \\ x_{n1} & x_{n2} & \cdots & x_{nm} & 1 \end{bmatrix} \begin{bmatrix} \hat\beta_1 \\ \hat\beta_2 \\ \vdots \\ \hat\beta_n \\ \hat\beta_0 \end{bmatrix}$$
 
 - $\hat\beta$ 구하는 방법
