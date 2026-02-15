@@ -16,7 +16,9 @@
 
 $a_1x^2+a_2y^2+a_3z^2+a_4xy+a_5yz+a_6zx$
 
-$$= \begin{pmatrix} x&y&z\end{pmatrix}$$\begin{pmatrix} a_1 & a_4/2 &a_6/2\\a_4/2&a_2&a_5/2\\a_6/2&a_5/2&a3 \end{pmatrix}$$\begin{pmatrix} x\\y\\z\end{pmatrix}$$
+$$= \begin{pmatrix} x&y&z\end{pmatrix}$$
+$$\begin{pmatrix} a_1 & a_4/2 &a_6/2\\a_4/2&a_2&a_5/2\\a_6/2&a_5/2&a3 \end{pmatrix}$$
+$$\begin{pmatrix} x\\y\\z\end{pmatrix}$$
 
 ### 주축정리
 
@@ -46,7 +48,6 @@ $||x|| =1$ 이면, $x^TAx$, 즉 이차형식의 최솟값 = 가장 작은 고유
 - 양의 준정부호: $\lambda \geq 0$
 - 음의 정부호: $\lambda < 0$
 - 음의 준정부호: $\lambda \leq 0$
-
 - 부정부호: $\lambda >0 \space \& \space \lambda <0$
 
 
