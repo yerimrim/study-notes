@@ -4,7 +4,7 @@
 
 1. $^ \forall v \in V, \space <v,v> \space \geq 0 \space,moreover<v,v>=0\Leftrightarrow\space v=0$ 
 2. $^\forall v,w \in V , \space <v,w>=<w,v>$
-3. $^\forall v,w,u\in V, \space ^\forall \alpha,\beta \in \R, \space <\alpha v+\beta w, \space u> = \alpha<v,u>+\beta <w,u>$
+3. $^\forall v,w,u\in V, \space ^\forall \alpha,\beta \in \mathbb{R}, \space <\alpha v+\beta w, \space u> = \alpha<v,u>+\beta <w,u>$
 </aside>
 
 <aside>
@@ -32,7 +32,7 @@ $u \times v = \begin{vmatrix} i & j& k \\ u_1&u_2&u_3\\ v_1&v_2&v_3 \end{vmatrix
 2. $i\times j = k,\space  j\times k = i ,\space k\times i = j$
 3. $i\times k = -j,\space j\times i = -k,\space k\times j = -i$
 
-### $\R^3$ 공간 벡터의 외적의 성질
+### $\mathbb{R}^3$ 공간 벡터의 외적의 성질
 
 1. $u\times v = -v\times u$
 2. $u \times (v+w) = (u\times v) + (u\times w)$
@@ -44,7 +44,7 @@ $u \times v = \begin{vmatrix} i & j& k \\ u_1&u_2&u_3\\ v_1&v_2&v_3 \end{vmatrix
 
 <aside>
 
-### $\R^3$ 공간의 직선
+### $\mathbb{R}^3$ 공간의 직선
 
 $a$ : 지나는 점
 
@@ -52,7 +52,7 @@ $b$ : 평행한 벡터
 
 ⇒  $p = a + bt$
 
-### $\R^3$ 공간에서 벡터의 방향각
+### $\mathbb{R}^3$ 공간에서 벡터의 방향각
 
 $cos\alpha = {v_x\over ||v||}$
 
@@ -62,7 +62,7 @@ $cos\gamma = {v_z\over ||v||}$
 
 ⇒ $cos^2\alpha + cos^2 \beta + cos^2 \gamma = 1$ (검산용)
 
-### $\R^3$ 공간에서 평면의 방적식
+### $\mathbb{R}^3$ 공간에서 평면의 방적식
 
 $w$  : 법선벡터
 
@@ -72,7 +72,7 @@ $a$ : 지나는 점
 
 ⇒ $w \cdot (p-a) = 0$
 
-### $\R^3$ 공간에서 평면과 점 사이의 거리
+### $\mathbb{R}^3$ 공간에서 평면과 점 사이의 거리
 
 $d = {\mid(p-a)\cdot w \mid \over \Vert w \Vert }$
 
