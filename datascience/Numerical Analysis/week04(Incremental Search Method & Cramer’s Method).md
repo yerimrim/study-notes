@@ -43,6 +43,9 @@ $$
 \epsilon_a < \epsilon_s 
 $$
 
+---
+
+
 ### 2. Cramer’s Method
 
 calculate  $det(D)$
