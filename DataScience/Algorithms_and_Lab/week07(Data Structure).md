@@ -1,6 +1,6 @@
 - Simple array-based data structures: arrays, matrices, stacks, and queues
 - ‘2’ and ‘567’ have the same access time
-- index starts from $s$, memory address starts from $a$, each occupies $b$ bytes ⇒ $i$ th element occupies bytes $a+b(i-s)$ through $a+b(i+1-s)-1$
+- index starts from $s$, memory address starts from $a$, each occupies $b$ bytes ⇒ $i$ _{th} element occupies bytes $a+b(i-s)$ through $a+b(i+1-s)-1$
 
 ---
 
