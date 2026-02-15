@@ -1,4 +1,4 @@
-### Chapter4 (Deep)
+### Chapter04 (Deep)
 
 - Deep Neural Network: 은닉층이 2개 이상
 - **Hyperparameter**: 학습 전에 직접 설정하는 값
