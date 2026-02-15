@@ -1,4 +1,4 @@
-### Chapter5 (Loss)
+### Chapter05 (Loss)
 
 - `Loss function`: 실제값과 예측값 사이의 오차를 계산하는 함수
 - **Maximum Likelihood**: **argmax**$( \sum P[y_i|f(x_i,\phi)])$
@@ -15,7 +15,7 @@
     - 출력=연속값 여러 개 - `Multivariate Regression`
         - MSE의 합: $L(\phi)=∑_{i=1}^I∑_{d=1}^{D_o}​(f_d​[x_i​,ϕ]−y_{id}​)^2$
     - 출력=1개 클래스 - `Binary Classification`
-        - Binary Cross-Entropy: $\\L(\phi)=\sum^I_{i=1}-(1-y_i)log(1-sig[f(x_i|\phi)])-y_ilog(sig[f(x_i|\phi)])$
+        - Binary Cross-Entropy: $L(\phi)=\sum^I_{i=1}-(1-y_i)log(1-sig[f(x_i|\phi)])-y_ilog(sig[f(x_i|\phi)])$
     - 출력=2개 이상 클래스 - `Multiclass Classification`
         - Multiclass Cross-Entropy: $-\sum_{i=1}^{D_o} p_i\space log[\hat y_i]$
         - $\hat y​_i​= {softmax}(f_i​[x,ϕ])={exp(f_i[x,\phi])\over \sum_{k=1}^{D_o}exp(f_k[x,\phi])}$
