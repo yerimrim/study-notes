@@ -24,7 +24,7 @@ $||v|| = \sqrt{<v,v>}$
 
 ### 외적
 
-$u \times v = \begin{vmatrix} i & j& k \\ u_1&u_2&u_3\\ v_1&v_2&v_3 \end{vmatrix}$
+$$u \times v = \begin{vmatrix} i & j& k \\ u_1&u_2&u_3\\ v_1&v_2&v_3 \end{vmatrix}$$
 
 ### $\mathbb{R}^3$ 공간 벡터의 표준기저에 대한 외적의 성질
 
