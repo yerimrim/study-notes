@@ -78,15 +78,15 @@ $$E_1^{-1}=\begin{pmatrix} 0&1&0 \\ 1&0&0 \\ 0&0&1\end{pmatrix}$$
 
 - 한 행을 상수배하는 기본행렬
 
-  - $$E_2 = \begin{pmatrix} 1&0&0 \\ 0&1&0 \\ 0&0&a \end{pmatrix}$$
-  - $$E_2^{-1}=\begin{pmatrix} 1&0&0 \\ 0&1&0 \\ 0&0&1/a\end{pmatrix}$$
+$$E_2 = \begin{pmatrix} 1&0&0 \\ 0&1&0 \\ 0&0&a \end{pmatrix}$$
+
+$$E_2^{-1}=\begin{pmatrix} 1&0&0 \\ 0&1&0 \\ 0&0&1/a\end{pmatrix}$$
 
 - 한 행의 상수배를 다른 행에 더하는 기본행렬
-    - $$E_3 = \begin{pmatrix} 1&0&0 \\ 0&1&0 \\ a&0&1 \end{pmatrix}$$
-    - $$E_3^{-1}=\begin{pmatrix} 1&0&0 \\ 0&1&0 \\ -a&0&1\end{pmatrix}$$
-</aside>
 
-<aside>
+$$E_3 = \begin{pmatrix} 1&0&0 \\ 0&1&0 \\ a&0&1 \end{pmatrix}$$
+
+$$E_3^{-1}=\begin{pmatrix} 1&0&0 \\ 0&1&0 \\ -a&0&1\end{pmatrix}$$
 
 ### <행 동치>
 
