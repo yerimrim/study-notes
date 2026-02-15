@@ -49,15 +49,18 @@ $$
 \begin{vmatrix}A & 0 \\ C & B \end{vmatrix} = det(A)det(B)
 $$
 
+---
+
+
 ### 3. 행렬식으로 평행사변형의 넓이 구하기
 
 꼭짓점의 좌표가 (0,0), (a,c), (b,d), (a+b, c+d)인 평행사변형의 넓이
 
 $$|det\begin{pmatrix} a&b \\ c&d\end{pmatrix}|$$ $$\space = |ad-bc|$$
 
-</aside>
 
-<aside>
+
+---
 
 ###  4. 동차연립선형방정식이 자명해만 가지기 위한 조건
 
@@ -69,9 +72,8 @@ $$
 \space \space det\begin{pmatrix} a&b \\ c&d \end{pmatrix} \neq 0
 $$
 
-</aside>
 
-<aside>
+---
 
 
 ### 5. 행렬식으로 평면의 방정식 구하기
@@ -80,9 +82,8 @@ $$
 (x_1,y_1,z_1),(x_2,y_2,z_2),(x_3,y_3,z_3) \\ \begin{vmatrix}x&y&z&1 \\ x_1&y_1&z_1&1 \\ x_2&y_2&z_2&1 \\ x_3&y_3&z_3&1\end{vmatrix}=0
 $$
 
-</aside>
 
-<aside>
+---
 
 
 
@@ -92,9 +93,8 @@ $$
 (x_1,y_1),(x_2,y_2),(x_3,y_3) \\ \begin{vmatrix}x^2+y^2&x&y&1 \\ x_1^2+y_1^2&x_1&y_1&1 \\ x_2^2+y_2^2&x_2&y_2&1 \\ x_3^2+y_3^2&x_3&y_3&1 \end{vmatrix}=0
 $$
 
-</aside>
 
-<aside>
+---
 
 
 
@@ -104,10 +104,7 @@ $$
 adjA=\begin{pmatrix} C_{11}&C_{12}&\dots &C_{1n} \\ C_{21}&C_{22} &\dots & C_{2n} \\ \dots&\dots & \dots &\dots \\ C_{n1} & C_{n2}&\dots & C_{nn}\end{pmatrix}^T=\begin{pmatrix} C_{11}&C_{21}&\dots&C_{n1} \\ C_{12}&C_{22}&\dots&C_{n2} \\ \dots&\dots&\dots&\dots \\ C_{1n}&C_{2n}&\dots&C_{nn} \end{pmatrix}
 $$
 
-</aside>
-
-<aside>
-
+---
 
   
 ###  8. 수반행렬의 성질
@@ -136,9 +133,9 @@ $$
 adj(AB)=adjB\times adjA
 $$
 
-</aside>
 
-<aside>
+
+---
 
 
   
@@ -148,4 +145,4 @@ $$
 Ax=b \\ x=A^{-1}\times b=\frac{1}{det(A)}adjA\times b
 $$
 
-</aside>
+
