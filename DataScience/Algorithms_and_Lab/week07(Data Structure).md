@@ -1,6 +1,6 @@
 - Simple array-based data structures: arrays, matrices, stacks, and queues
 - ‘2’ and ‘567’ have the same access time
-- index starts from $s$, memory address starts from $a$, each occupies $b$ bytes ⇒ $i$th element occupies bytes $a+b(i-s)$ through $a+b(i+1-s)-1$
+- index starts from $s$, memory address starts from $a$, each occupies $b$ bytes ⇒ $i$ th element occupies bytes $a+b(i-s)$ through $a+b(i+1-s)-1$
 
 ---
 
@@ -9,7 +9,7 @@
 - last-in, first-out(LIFO)
 - Insert: push / Delete: pop
 - top idex: recently inserted element 
-⇒ [S.top](http://S.top)=0: stack에 아무것도 없다는 뜻
+⇒ S.top=0: stack에 아무것도 없다는 뜻
 ⇒ S.top==S.size: stack이 꽉 찼다는 뜻
 - ex) UNDO/REDO
 
