@@ -65,6 +65,6 @@ $p(\lambda) = det(\lambda I_n - A) = \lambda^n + a_{n-1}\lambda^{n-1}+\cdots +a_
 - $v\cdot w=w^*v=\bar w^Tv$
 - $||v||=\sqrt{ v\cdot v}=\sqrt{v^*v}=\sqrt{\bar v^T v}$
 - $v\cdot w = \bar w\bar \cdot \bar v$
-- $(v^*)^*=v$
-- $(\alpha A +\beta B)^*=\bar\alpha A^*+\bar\beta B^*$
-- $(AB)^*=C^*A^*$
+- $(v^{*})^{*}=v$
+- $(\alpha A +\beta B)^{*} =\bar\alpha A^{*}+\bar\beta B^{*} $
+- $(AB)^{*}=C^*A^{*}$
