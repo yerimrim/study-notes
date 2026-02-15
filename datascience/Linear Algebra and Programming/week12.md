@@ -8,11 +8,11 @@
 - n차 정방행렬은 복소수 범위에서 n개의 고유값을 갖는다. (중복도까지 포함)
 - 대칭행렬의 고유값은 모두 실수이다.
 - 삼각행렬의 고유값 = 주대각 성분
-- $A^n$ 의 고유값  $=\lambda^n$
-- $A^{-1}$ 의 고유값  $={1 \over \lambda}$
+- $A^n$ 의 고유값 $= \lambda^n$
+- $A^{-1}$ 의 고유값 $= \frac{1}{\lambda}$
 - $A^T$ 의 고유값 $= \lambda$
-- $det(A) = \lambda_i$ 의 곱,  $tr(A) =\lambda_i$ 의 합
-- $A+cI_n$ 의 고유값 $=\lambda +c$
+- $det(A) = \prod \lambda_i$, $tr(A) = \sum \lambda_i$
+- $A + cI_n$ 의 고유값 $= \lambda + c$
 
 ### 고유벡터
 
@@ -33,9 +33,10 @@ $p(\lambda) = det(\lambda I_n - A) = \lambda^n + a_{n-1}\lambda^{n-1}+\cdots +a_
 
 ### 평균벡터와 공분산 행렬
 
-- $m={1\over k}\sum x_i$   ⇒ 평균 벡터
-- $C = {1\over k}\sum (x_i - m)(x_i-m)^T$    ⇒ 공분산 행렬 (열벡터 x 행벡터)
-- $\hat x _i= \sum (x_i-m)^Tu_i$   ⇒ 차원 축소 해
+- $m = \frac{1}{k} \sum x_i$
+- $C = \frac{1}{k} \sum (x_i - m)(x_i - m)^T$
+- $\hat{x}_i = (x_i - m)^T u_i$
+
 
 ### 주성분 분석 (차원 축소)
 
@@ -58,12 +59,11 @@ $p(\lambda) = det(\lambda I_n - A) = \lambda^n + a_{n-1}\lambda^{n-1}+\cdots +a_
 5. 두 직교행렬의 곱은 직교행렬이다.
 
 ### 복소벡터공간
-
 - $v \cdot w = w^* v = \bar{w}^T v$
 - $||v|| = \sqrt{v \cdot v} = \sqrt{v^* v} = \sqrt{\bar{v}^T v}$
-- $v \cdot w = \bar{w} \cdot \bar{v}$
 - $(v^{*})^{*} = v$
 - $(\alpha A + \beta B)^{*} = \bar{\alpha} A^{*} + \bar{\beta} B^{*}$
 - $(AB)^{*} = B^{*} A^{*}$
+
   
 
