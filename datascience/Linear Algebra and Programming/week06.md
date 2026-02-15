@@ -19,7 +19,7 @@ $$
 </aside>
 
 <aside>
---
+---
 
 ### 2. 블록행렬의 행렬식
 
@@ -55,6 +55,7 @@ $$
 
 <aside>
 
+---
 ### 3. 행렬식으로 평행사변형의 넓이 구하기
 
 꼭짓점의 좌표가 (0,0), (a,c), (b,d), (a+b, c+d)인 평행사변형의 넓이
@@ -64,8 +65,8 @@ $|det\begin{pmatrix} a&b \\ c&d\end{pmatrix}|$ $\space = |ad-bc|$
 </aside>
 
 <aside>
-
-### ⭐️ 4. 동차연립선형방정식이 자명해만 가지기 위한 조건
+---
+###  4. 동차연립선형방정식이 자명해만 가지기 위한 조건
 
 $$
 \begin{pmatrix} a&b \\ c&d\end{pmatrix} \begin{pmatrix}x\\y\end{pmatrix}=0
@@ -78,7 +79,7 @@ $$
 </aside>
 
 <aside>
-
+---
 ### 5. 행렬식으로 평면의 방정식 구하기
 
 $$
@@ -88,7 +89,7 @@ $$
 </aside>
 
 <aside>
-
+---
 ### 6. 행렬식으로 이차곡선의 방정식 구하기
 
 $$
@@ -98,8 +99,8 @@ $$
 </aside>
 
 <aside>
-
-### ⭐️ 7. 수반행렬 (adjA)
+---
+###  7. 수반행렬 (adjA)
 
 $$
 adjA=\begin{pmatrix} C_{11}&C_{12}&\dots &C_{1n} \\ C_{21}&C_{22} &\dots & C_{2n} \\ \dots&\dots & \dots &\dots \\ C_{n1} & C_{n2}&\dots & C_{nn}\end{pmatrix}^T=\begin{pmatrix} C_{11}&C_{21}&\dots&C_{n1} \\ C_{12}&C_{22}&\dots&C_{n2} \\ \dots&\dots&\dots&\dots \\ C_{1n}&C_{2n}&\dots&C_{nn} \end{pmatrix}
@@ -108,8 +109,8 @@ $$
 </aside>
 
 <aside>
-
-### ⭐️ 8. 수반행렬의 성질
+---
+###  8. 수반행렬의 성질
 
 **1)**
 
@@ -138,8 +139,8 @@ $$
 </aside>
 
 <aside>
-
-### ⭐️ 9. 크래머 공식
+---
+###  9. 크래머 공식
 
 $$
 Ax=b \\ x=A^{-1}\times b=\frac{1}{det(A)}adjA\times b
