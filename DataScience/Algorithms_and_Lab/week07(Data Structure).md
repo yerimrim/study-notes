@@ -60,4 +60,4 @@ worst case in array: $\phi(n)$, doubly linked list: $\phi(1)$
 
 ⇒ Access by index is faster in an array than on doubly linked list.
 
-in array: $\bold0(1)$, linked ilst: $\phi(k)$
+in array: $\mathbb{0}(1)$, linked ilst: $\phi(k)$
