@@ -32,7 +32,7 @@ $$\begin{vmatrix} a & b \\ c & d \end{vmatrix} = ad-bc$$
 
 $$A = \begin{pmatrix} a & b & c \\ d&e&f\\g&h&i \end{pmatrix}$$
 
-$$A_{11} = \begin{vmatrix} e&f\\h&i \end{vmatrix}$   $A_{12} = \begin{vmatrix} d&g \\ f&i \end{vmatrix}$ $\dots$$
+$$A_{11} = \begin{vmatrix} e&f\\h&i \end{vmatrix}$$   $$A_{12} = \begin{vmatrix} d&g \\ f&i \end{vmatrix}$ $\dots$$
 
 </aside>
 
