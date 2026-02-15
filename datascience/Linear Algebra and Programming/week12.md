@@ -1,5 +1,4 @@
 
----
 
 ### 고유공간
 
@@ -60,21 +59,14 @@ $p(\lambda) = det(\lambda I_n - A) = \lambda^n + a_{n-1}\lambda^{n-1}+\cdots +a_
 4. $||Ux||=||x||$
 5. 두 직교행렬의 곱은 직교행렬이다.
 
----
+
 
 ### 복소벡터공간
 
 - $v\cdot w=w^*v=\bar w^Tv$
 - $||v||=\sqrt{ v\cdot v}=\sqrt{v^*v}=\sqrt{\bar v^T v}$
 - $v\cdot w = \bar w\bar \cdot \bar v$
-
-- $(v^*)^*=v$
-
-
-- $(\alpha A +\beta B)^*=\bar\alpha A^*+\bar\beta B^*$
-
-
-- $(AB)^*=C^*A^*$
-
-$\mathbb{R}$
+- $(v^{\ast})^{\ast} = v$
+- $(\alpha A + \beta B)^{\ast} = \bar{\alpha} A^{\ast} + \bar{\beta} B^{\ast}$
+- $(AB)^{\ast} = C^{\ast} A^{\ast}$
 
