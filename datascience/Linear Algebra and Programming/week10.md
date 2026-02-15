@@ -4,7 +4,7 @@
 
 1. $^ \forall v \in V, \space <v,v> \space \geq 0 \space,moreover<v,v>=0\Leftrightarrow\space v=0$ 
 2. $^\forall v,w \in V , \space <v,w>=<w,v>$
-3. $^\forall v,w,u\in V, \space ^\forall \alpha,\beta \in \mathbb{R}, \space <\alpha v+\beta w, \space u> = \alpha<v,u>+\beta <w,u>$
+3. $^\forall v,w,u\in V, \space ^\forall \alpha,\beta \in\mathbb{R}, \space <\alpha v+\beta w, \space u> = \alpha<v,u>+\beta <w,u>$
 </aside>
 
 <aside>
