@@ -90,7 +90,7 @@ $\bigtriangledown F = {\partial f\over \partial x_i} = [{\partial f_1\over \part
 
 ### 야코비안 행렬
 
-$J_f= {\partial F\over \partial x} = \begin{pmatrix} {\partial f_1\over \partial x_1} & {\partial f_2\over \partial x_1} \dots {\partial f_n\over \partial x_1} \\\\ {\partial f_2\over \partial x_2} & {\partial f_2 \over \partial x_2} \dots {\partial f_n \over \partial x_2} \\ \vdots  & \vdots\end{pmatrix}$  
+$$J_f= {\partial F\over \partial x} = \begin{pmatrix} {\partial f_1\over \partial x_1} & {\partial f_2\over \partial x_1} \dots {\partial f_n\over \partial x_1} \\\\ {\partial f_2\over \partial x_2} & {\partial f_2 \over \partial x_2} \dots {\partial f_n \over \partial x_2} \\ \vdots  & \vdots\end{pmatrix}$$
 
 ### 헤시안 행렬
 
@@ -125,7 +125,7 @@ $\bigtriangledown^2f = {\partial^2f \over \partial x_1^2} + {\partial ^2 f\over 
 1. $L(u+v) = L(u)+L(v)$
 2. $L(ku) = kL(u)$
 
-- 행렬에 벡터를 곱하는 것 =  $\R^n \longrightarrow \R^m$ 으로의 선형변환
+- 행렬에 벡터를 곱하는 것 =  $\mathbb{R}^n \longrightarrow \mathbb{R}^m$ 으로의 선형변환
 
 ### 반사변환
 
