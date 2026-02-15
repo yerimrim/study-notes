@@ -27,13 +27,13 @@ $$
 $1)\space A_{n\times n},\space I_{m\times m},\space B_{n\times m},\space 0_{m\times n}$
 
 $$
-\begin{vmatrix}A&B\\0&I_m\end{vmatrix}=det(A)
+\begin{vmatrix}A&B \\ 0&I_m\end{vmatrix}=det(A)
 $$
 
 $2)\space A_{n\times n},\space I_{m\times m},\space B_{m\times n},\space 0_{n\times m}$
 
 $$
-\begin{vmatrix}I_m&B\\0&A\end{vmatrix}=det(A)
+\begin{vmatrix}I_m&B \\ 0&A\end{vmatrix}=det(A)
 $$
 
 - **‘영행렬’을 부분행렬로 갖는 블록행렬의 행렬식**
@@ -41,13 +41,13 @@ $$
 $1)\space A_{n\times n}, \space B_{m\times m},\space C_{n\times m},\space 0_{m\times n}$
 
 $$
-\begin{vmatrix}A & C\\ 0 & B \end{vmatrix} = det(A)det(B)
+\begin{vmatrix}A & C \\ 0 & B \end{vmatrix} = det(A)det(B)
 $$
 
 $2)\space A_{n\times n}, \space B_{m\times m},\space C_{m\times n},\space 0_{n\times m}$
 
 $$
-\begin{vmatrix}A & 0\\ C & B \end{vmatrix} = det(A)det(B)
+\begin{vmatrix}A & 0 \\ C & B \end{vmatrix} = det(A)det(B)
 $$
 
 </aside>
@@ -58,7 +58,7 @@ $$
 
 꼭짓점의 좌표가 (0,0), (a,c), (b,d), (a+b, c+d)인 평행사변형의 넓이
 
-$|det\begin{pmatrix} a&b\\c&d\end{pmatrix}|$ $\space = |ad-bc|$
+$|det\begin{pmatrix} a&b \\ c&d\end{pmatrix}|$ $\space = |ad-bc|$
 
 </aside>
 
@@ -67,7 +67,7 @@ $|det\begin{pmatrix} a&b\\c&d\end{pmatrix}|$ $\space = |ad-bc|$
 ### ⭐️ 4. 동차연립선형방정식이 자명해만 가지기 위한 조건
 
 $$
-\begin{pmatrix} a&b\\c&d\end{pmatrix} \begin{pmatrix}x\\y\end{pmatrix}=0
+\begin{pmatrix} a&b \\ c&d\end{pmatrix} \begin{pmatrix}x\\y\end{pmatrix}=0
 $$
 
 $$
@@ -81,7 +81,7 @@ $$
 ### 5. 행렬식으로 평면의 방정식 구하기
 
 $$
-(x_1,y_1,z_1),(x_2,y_2,z_2),(x_3,y_3,z_3)\\ \begin{vmatrix}x&y&z&1\\x_1&y_1&z_1&1\\x_2&y_2&z_2&1\\x_3&y_3&z_3&1\end{vmatrix}=0
+(x_1,y_1,z_1),(x_2,y_2,z_2),(x_3,y_3,z_3) \\ \begin{vmatrix}x&y&z&1 \\ x_1&y_1&z_1&1 \\ x_2&y_2&z_2&1 \\ x_3&y_3&z_3&1\end{vmatrix}=0
 $$
 
 </aside>
@@ -91,7 +91,7 @@ $$
 ### 6. 행렬식으로 이차곡선의 방정식 구하기
 
 $$
-(x_1,y_1),(x_2,y_2),(x_3,y_3)\\ \begin{vmatrix}x^2+y^2&x&y&1\\x_1^2+y_1^2&x_1&y_1&1\\x_2^2+y_2^2&x_2&y_2&1\\x_3^2+y_3^2&x_3&y_3&1 \end{vmatrix}=0
+(x_1,y_1),(x_2,y_2),(x_3,y_3) \\ \begin{vmatrix}x^2+y^2&x&y&1 \\ x_1^2+y_1^2&x_1&y_1&1 \\ x_2^2+y_2^2&x_2&y_2&1 \\ x_3^2+y_3^2&x_3&y_3&1 \end{vmatrix}=0
 $$
 
 </aside>
@@ -101,7 +101,7 @@ $$
 ### ⭐️ 7. 수반행렬 (adjA)
 
 $$
-adjA=\begin{pmatrix} C_{11}&C_{12}&\dots &C_{1n}\\C_{21}&C_{22} &\dots & C_{2n}\\\dots&\dots & \dots &\dots \\C_{n1} & C_{n2}&\dots & C_{nn}\end{pmatrix}^T=\begin{pmatrix} C_{11}&C_{21}&\dots&C_{n1}\\C_{12}&C_{22}&\dots&C_{n2}\\\dots&\dots&\dots&\dots\\C_{1n}&C_{2n}&\dots&C_{nn} \end{pmatrix}
+adjA=\begin{pmatrix} C_{11}&C_{12}&\dots &C_{1n} \\ C_{21}&C_{22} &\dots & C_{2n} \\ \dots&\dots & \dots &\dots \\ C_{n1} & C_{n2}&\dots & C_{nn}\end{pmatrix}^T=\begin{pmatrix} C_{11}&C_{21}&\dots&C_{n1} \\ C_{12}&C_{22}&\dots&C_{n2} \\ \dots&\dots&\dots&\dots \\ C_{1n}&C_{2n}&\dots&C_{nn} \end{pmatrix}
 $$
 
 </aside>
@@ -113,7 +113,7 @@ $$
 **1)**
 
 $$
-A\times adjA = det(A)I =\begin{pmatrix} det(A)&0&\dots &0\\0&det(A)&\dots&0\\\dots&\dots&\dots&\dots\\0&0&\dots&det(A)\end{pmatrix}
+A\times adjA = det(A)I =\begin{pmatrix} det(A)&0&\dots &0 \\ 0&det(A)&\dots&0 \\ \dots&\dots&\dots&\dots \\ 0&0&\dots&det(A)\end{pmatrix}
 $$
 
 **2)**
@@ -141,7 +141,7 @@ $$
 ### ⭐️ 9. 크래머 공식
 
 $$
-Ax=b\\ x=A^{-1}\times b=\frac{1}{det(A)}adjA\times b
+Ax=b \\ x=A^{-1}\times b=\frac{1}{det(A)}adjA\times b
 $$
 
 </aside>
