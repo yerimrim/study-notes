@@ -1,4 +1,4 @@
-### Chapter7 (Gradients & Initialization)
+### Chapter07 (Gradients & Initialization)
 
 - `Backpropagation`: 모든 가중치에 대한 Gradient를 효율적으로 계산하기 위해 사용하는 알고리즘
     - 장점: 매우 효율적
