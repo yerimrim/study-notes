@@ -1,5 +1,3 @@
-<aside>
-
 ### 1. 행렬식 연산
 
 $$
@@ -15,12 +13,7 @@ det(kA)=k^nA \\ (A_{n\times n})
 $$
 
 * 삼각행렬(상삼각행렬, 하삼각행렬, 대각행렬)의 행렬식: 주대각 성분의 곱 *
-
-</aside>
-
-<aside>
-
-
+---
 ### 2. 블록행렬의 행렬식
 
 - **‘영행렬’과 ‘단위행렬’을 부분행렬로 갖는 블록행렬의 행렬식**
@@ -50,11 +43,6 @@ $2)\space A_{n\times n}, \space B_{m\times m},\space C_{m\times n},\space 0_{n\t
 $$
 \begin{vmatrix}A & 0 \\ C & B \end{vmatrix} = det(A)det(B)
 $$
-
-</aside>
-
-<aside>
-
 
 ### 3. 행렬식으로 평행사변형의 넓이 구하기
 
