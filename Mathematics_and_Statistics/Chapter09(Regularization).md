@@ -1,4 +1,4 @@
-### Chapter9 (Regularization)
+### Chapter09 (Regularization)
 
 - `Generalization Gap(Generalization error)`: **Training error과 Validation error 사이의 Gap** = **Variance error**
 - **Variance error을 줄이는 방법**(=Generalization Gap 줄이는 방법)
