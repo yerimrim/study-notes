@@ -15,11 +15,10 @@
 : $x^TAx$
 
 $$
-a_1 x^2 + a_2 y^2 + a_3 z^2 + a_4 xy + a_5 yz + a_6 zx
-$$
-
-$$
-=
+\begin{aligned}
+x^T A x
+&= a_1 x^2 + a_2 y^2 + a_3 z^2 + a_4 xy + a_5 yz + a_6 zx \\
+&= 
 \begin{pmatrix} x & y & z \end{pmatrix}
 \begin{pmatrix}
 a_1 & a_4/2 & a_6/2 \\
@@ -27,7 +26,9 @@ a_4/2 & a_2 & a_5/2 \\
 a_6/2 & a_5/2 & a_3
 \end{pmatrix}
 \begin{pmatrix} x \\ y \\ z \end{pmatrix}
+\end{aligned}
 $$
+
 
 
 
