@@ -41,9 +41,9 @@ $3)\space u+v=v+u$
 
 $4)\space u+(v+w)=(u+v)+w$
 
-$5)\space ^\forall u \in V, \space ^\exist 0 \in V \space s.t.\space  \space u+0=0+u=u$ 
+$5)\space ^\forall u \in V, \space ^\exists 0 \in V \space s.t.\space  \space u+0=0+u=u$ 
 
-$6)\space ^\forall u \in V, \space ^\exist (-u) \in V \space s.t. \space \space u+(-u)=(-u)+u=0$
+$6)\space ^\forall u \in V, \space ^\exists (-u) \in V \space s.t. \space \space u+(-u)=(-u)+u=0$
 
 $7)\space \alpha(u+v)=\alpha u+\alpha v$
 
@@ -67,7 +67,7 @@ $1) \space 0 \in S$
 
 $2) \space ^\forall u,v \in S$ ⇒  $u+v \in S$
 
-$3) \space \alpha \in \R, \space u \in S$ ⇒  $\alpha u \in S$
+$3) \space \alpha \in \mathbb{R}, \space u \in S$ ⇒  $\alpha u \in S$
 
 
 
@@ -79,7 +79,7 @@ $3) \space \alpha \in \R, \space u \in S$ ⇒  $\alpha u \in S$
 
 ### 4. 선형결합
 
-벡터공간 $V, \space \space v_i \in V, \space c_i \in \R$ 일 때,
+벡터공간 $V, \space \space v_i \in V, \space c_i \in \mathbb{R}$ 일 때,
 
 $v= c_1v_1 + c_2v_2 + \dots + c_nv_n$
 
