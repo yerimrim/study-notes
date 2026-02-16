@@ -19,8 +19,8 @@
                    = 입력 채널 수 $\times$ 출력 채널 수 $\times$ 커널 size**
     - **Bias = 출력 채널 수**
 - Receptive Field(수용장)⭐️
-: 한 유닛에 영향을 미치는 입력 데이터의 영역 크기 (Layer가 깊어질수록 영향력이 커져 더 넓은 범위의 정보를 파악 가능)**
-    - $$R_L​=R_{L−1}​+(kernel_L​−1)×stride ^{(누적)}_{L−1​}×dilation_{L−1}​$$
+: 한 유닛에 영향을 미치는 입력 데이터의 영역 크기 (Layer가 깊어질수록 영향력이 커져 더 넓은 범위의 정보를 파악 가능)
+    - **$ R_L​=R_{L−1}​+(kernel_L​−1)×stride ^{(누적)}_{L−1​}×dilation_{L−1}​ $**
 - **Downsampling**: 차원 축소
     - sample every other position: 모두 동일한 위치의 값
     - Max pooling: 각 구역별 max값
